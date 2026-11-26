@@ -3,6 +3,21 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+# Node.js / Frontend / Backend
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.vite/
+
+# ML Models & Artifacts
+*.pkl
+*.pt
+*.pth
+*.joblib
+*.onnx
+
 # C extensions
 *.so
 
