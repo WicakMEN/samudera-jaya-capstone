@@ -1,0 +1,45 @@
+text,intent
+"beli mie basah 5 kg dan bakso 100 butir",restock_inventaris
+"habis belanja dari pasar mie basah 3 kg sama bumbu yamin 500 gram",restock_inventaris
+"restock kemasan bowl 50 pcs dan bakso 80 butir",restock_inventaris
+"tambah stok mie basah 4000 gr",restock_inventaris
+"tadi beli bakso 200 butir di pasar",restock_inventaris
+"beli bumbu yamin 1 kg untuk stok besok",restock_inventaris
+"masuk stok baru kemasan bowl 100 pcs",restock_inventaris
+"belanja harian mie basah 2.5 kg bakso 50 butir kemasan 30 pcs",restock_inventaris
+"tolong catat restock mie basah 6 kg",restock_inventaris
+"stok baru datang bumbu yamin 800 gram dan mie basah 2 kg",restock_inventaris
+"beli mangkok kemasan 40 pcs di toko plastik",restock_inventaris
+"tambah bakso 150 biji sama mie basah 3 kg",restock_inventaris
+"baru beli bumbu yamin 1.5 kg di pasar induk",restock_inventaris
+"input stok masuk mie basah 5000 gram",restock_inventaris
+"belanja pasar pagi bakso 120 butir kemasan bowl 60 pcs",restock_inventaris
+"restok mie basah 10 ons dan bumbu yamin 5 ons",restock_inventaris
+"beli bahan baku mie basah 4 kg dan kemasan 25 pcs",restock_inventaris
+"catat belanjaan hari ini bakso 75 butir",restock_inventaris
+"tambah persediaan bumbu yamin 600 gr dan bakso 50 butir",restock_inventaris
+"order pasar masuk mie basah 7 kg kemasan bowl 80 pcs",restock_inventaris
+"beli pentol bakso 90 butir",restock_inventaris
+"stok tambahan mie basah 3500 gram dan bumbu yamin 400 gram",restock_inventaris
+"siapa presiden indonesia sekarang?",out_of_scope
+"cuaca hari ini di jakarta hujan atau panas?",out_of_scope
+"tolong buatkan kode python untuk sorting angka",out_of_scope
+"berapa hasil dari 25 dikali 48?",out_of_scope
+"ceritakan lelucon lucu tentang kucing",out_of_scope
+"siapa pemenang piala dunia tahun lalu?",out_of_scope
+"bagaimana cara install windows 11 di laptop?",out_of_scope
+"apa ibu kota negara jepang?",out_of_scope
+"tuliskan puisi cinta untuk pacar saya",out_of_scope
+"berapa harga saham bbca hari ini?",out_of_scope
+"rekomendasi film horor netflix terbaru",out_of_scope
+"jelaskan teori relativitas einstein secara singkat",out_of_scope
+"gimana cara mengatasi sakit kepala sebelah?",out_of_scope
+"buatkan esai tentang pemanasan global 500 kata",out_of_scope
+"jadwal pertandingan liga inggris malam ini",out_of_scope
+"terjemahkan kalimat ini ke bahasa inggris",out_of_scope
+"apa perbedaan react dan vue js?",out_of_scope
+"halo kamu siapa dan dibuat oleh siapa?",out_of_scope
+"beli laptop gaming rtx 4060 murah dimana?",out_of_scope
+"cara daftar akun instagram baru lewat hp",out_of_scope
+"rekomendasi tempat wisata di bali untuk keluarga",out_of_scope
+"berapa jarak dari bumi ke bulan?",out_of_scope

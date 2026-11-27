@@ -1,0 +1,27 @@
+{
+  "best_model": "TF-IDF + LinearSVC",
+  "dataset_size": 44,
+  "comparison": [
+    {
+      "model": "TF-IDF + LinearSVC",
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0
+    },
+    {
+      "model": "TF-IDF + LogisticRegression",
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0
+    },
+    {
+      "model": "TF-IDF + MultinomialNB",
+      "accuracy": 0.9091,
+      "precision": 0.8333,
+      "recall": 1.0,
+      "f1_score": 0.9091
+    }
+  ]
+}
