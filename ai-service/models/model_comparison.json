@@ -1,27 +1,44 @@
 {
-  "best_model": "TF-IDF + LinearSVC",
-  "dataset_size": 44,
+  "best_model": "TF-IDF (Word+Char Sublinear) + LinearSVC (Tuned)",
+  "dataset_size": 140,
+  "train_size": 105,
+  "test_size": 35,
+  "class_distribution": {
+    "restock_inventaris": 70,
+    "out_of_scope": 70
+  },
   "comparison": [
     {
-      "model": "TF-IDF + LinearSVC",
-      "accuracy": 1.0,
-      "precision": 1.0,
+      "model": "TF-IDF + LinearSVC (Baseline)",
+      "accuracy": 0.8571,
+      "precision": 0.7727,
       "recall": 1.0,
-      "f1_score": 1.0
+      "f1_score": 0.8718,
+      "cv_f1_macro": 0.8927
+    },
+    {
+      "model": "TF-IDF (Word+Char Sublinear) + LinearSVC (Tuned)",
+      "accuracy": 0.8571,
+      "precision": 0.7727,
+      "recall": 1.0,
+      "f1_score": 0.8718,
+      "cv_f1_macro": 0.923
     },
     {
       "model": "TF-IDF + LogisticRegression",
-      "accuracy": 1.0,
-      "precision": 1.0,
+      "accuracy": 0.8286,
+      "precision": 0.7391,
       "recall": 1.0,
-      "f1_score": 1.0
+      "f1_score": 0.85,
+      "cv_f1_macro": 0.8834
     },
     {
       "model": "TF-IDF + MultinomialNB",
-      "accuracy": 0.9091,
-      "precision": 0.8333,
+      "accuracy": 0.7714,
+      "precision": 0.68,
       "recall": 1.0,
-      "f1_score": 0.9091
+      "f1_score": 0.8095,
+      "cv_f1_macro": 0.8505
     }
   ]
 }
